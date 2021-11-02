@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap/css/main.css">
+
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <section id="introduction">
+        <div class="container-fluid">
+            <div class="row">
+                <nav id="menu" class="navbar navbar-expand-lg navbar-light bg-dark">
+                    
+                    <div class="container-fluid" style="max-width: 1600px;">
+                      <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Menu" aria-controls="Menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+        
+                        <div class="collapse navbar-collapse" id="Menu">
+        
+                            <div class="navbar-nav">
+                                <div class="ps-1" style="border-left: 4px solid goldenrod ;"></div>
+                                <a class="nav-link text-white ps-4" href="#"><h5>Kayıt Ol</h5></a>
+                                <a class="nav-link text-white ps-4 pe-4" href="#"><h5>Giriş</h5></a>
+                            </div>
+        
+                            <form class="d-flex mx-auto" style="width: 700px;">
+                                <input class="form-control me-2" type="search" placeholder="Ürün veya Katagori Ara" aria-label="Search">
+                                <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+        
+                            <div class="navbar-nav">
+                                <a class="nav-link text-white ps-4" href="#"><h5>Ürün Takibi</h5></a>
+                                <a class="nav-link text-white ps-4" href="#"><h5>Sepetim</h5></a>
+                                <a class="nav-link text-white ps-4" href="#"><h5>Yardım</h5></a>
+                                <a class="nav-link text-white ps-4" href="#"><h5>İletişim</h5></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container-fluid"  style="background-color: goldenrod; height:50px;">
+            <div class="row">
+                <nav id="menu" class="navbar navbar-expand-sm navbar-light" style="max-width: 1600px; margin: 0 auto;" >
+                    <div id="Menu2" class="collapse navbar-collapse">
+                        <div class="navbar-nav">
+                          <div id="katagori-intro" class="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link text-white d-block ps-4" href="#"><i class="fas fa-bars float-start fs-4"><h5 class="float-end ps-3 fs-5">Katagoriler</h5></i></a>
+                          </div>
+                          <ul id="katagori-intro-dropdown" class="dropdown-menu" aria-labelledby="katagori-intro">
+                            <div class="d-flex">
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-laptop fs-1"></i><h5>Elektronik Eşya</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-couch fs-1"></i><h5>Mobilya</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="far fa-gem fs-1"></i><h5>Takı ve Mücevher</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-coffee fs-1"></i><h5>Mutfak Eşyası</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fab fa-laravel fs-1"></i><h5>Decoration</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-tshirt fs-1"></i><h5>Giyim</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-igloo fs-1"></i><h5>Yapı Malzemesi</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-star fs-1"></i><h5>En çok Satanlar</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-tags fs-1"></i><h5>Kampanyalar</h5></button></li>
+                              <li><button class="dropdown-item text-center" type="button"><i class="fas fa-star fs-1"></i><h5>En çok Satanlar</h5></button></li>
+                            </div>
+                          </ul>
+                        </div>
+                    </div>
+                    <div id="Menu2" class="collapse navbar-collapse justify-content-end">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white ps-4" href="#"><h5 class="float-start ps-3 fs-6">En Çok Satanlar</h5></a>
+                            <a class="nav-link text-white ps-4" href="#"><h5 class="float-start ps-3 fs-6">Yeni Ürünler</h5></a>
+                            <a class="nav-link text-white ps-4" href="#"><h5 class="float-start ps-3 fs-6">Kampanyalar</h5></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid" style=" max-width: 1600px;">
+            <div class="row">
+                <div id="intro-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <a href=""><img src="./img/intro/carousel/carousel1.jpg" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <a href=""><img src="./img/intro/carousel/carousel2.jpg" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href=""><img src="./img/intro/carousel/carousel3.jpg" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href=""><img src="./img/intro/carousel/carousel4.jpg" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href=""><img src="./img/intro/carousel/carousel5.jpg" class="d-block w-100" alt="..."></a>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="max-width: 1600px;">
+          <div id="card-float" class="row row-cols-1 row-cols-md-3 g-4">
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context2.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context3.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context4.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context5.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context6.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context2.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100">
+                    <a href=""><img src="./img/intro/context3.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                      <a class=" text-decoration-none text-dark" href=""><h5 class="card-title ">İndirimleri İncele</h5></a>
+                    </div>
+                  </div>
+                </div>
+
+          </div>
+        </div>
+
+    </section>
+
+    <section id="mid-belt">
+      <div class="container-fluid bg-dark mt-5" style="height: 200px;">
+        <div class="row">
+          <div class="col-6 mx-auto">
+            <div class="row">
+              <div class="col-4 mt-4 text-center">
+                <a href=""><i class="fas fa-truck"></i></a>
+                <h5 class="text-white mt-2">Hızlı Teslimat</h5>
+              </div>
+              <div class="col-4 mt-4 text-center">
+                <a href=""><i class="fas fa-user-lock"></i></a>
+                <h5 class="text-white mt-2">Güvenli Alışveriş</h5>
+              </div>
+              <div class="col-4 mt-4 text-center">
+                <a href=""><i class="fas fa-smile"></i></a>
+                <h5 class="text-white mt-2">Müşteri Memnuniyeti</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+    
+    
+
+
+    <script src="./bootstrap/js/Jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./bootstrap/js/main.js"></script>
+</body>
+</html>
